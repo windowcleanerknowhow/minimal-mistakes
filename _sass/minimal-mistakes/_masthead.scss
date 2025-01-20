@@ -57,18 +57,14 @@
   font-size: $type-size-8;
 }
 
-.iframe-container {
+.masthead__inner-wrap {
   display: flex;
-  align-items: center; // Align items vertically in the center
-  justify-content: space-between; // Ensure space between iframe and button
+  justify-content: space-between;
+  align-items: center;
 }
 
-.iframe-content {
-  flex-grow: 1; // Allow iframe to take up remaining space
-}
-
-.btn--large {
-  font-size: $type-size-5; // Ensure this matches your large button size
+.masthead__button {
+  margin-left: auto;
 }
 
 .masthead__menu {
